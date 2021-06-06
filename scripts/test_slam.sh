@@ -4,7 +4,7 @@
 terminator -e "
   cd $(pwd)/../..;
   source devel/setup.bash;
-  export TURTLEBOT_GAZEBO_WORLD_FILE=$(pwd)/../../src/map/simple_home.world ;
+  export TURTLEBOT_GAZEBO_WORLD_FILE=$(pwd)/../map/simple_home.world ;
   roslaunch turtlebot_gazebo turtlebot_world.launch" &
 
 sleep 10
